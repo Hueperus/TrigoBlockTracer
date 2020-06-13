@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\raket\source\repos\Testing01\Testing01\png++\</FILEPATH>
+      <FILENAME>image_info.hpp</FILENAME>
+      <LINE>59</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Der Enumerationstyp "png::color_type" umfasst keine Bereichseinschränkung. Geben Sie "enum class" Vorrang vor "enum" (Enum.3).</DESCRIPTION>
+    <FUNCTION>png::image_info::{ctor}</FUNCTION>
+    <DECORATED>??0image_info@png@@QAE@XZ</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\raket\source\repos\Testing01\Testing01\png++\</FILEPATH>
+      <FILENAME>image_info.hpp</FILENAME>
+      <LINE>60</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Der Enumerationstyp "png::interlace_type" umfasst keine Bereichseinschränkung. Geben Sie "enum class" Vorrang vor "enum" (Enum.3).</DESCRIPTION>
+    <FUNCTION>png::image_info::{ctor}</FUNCTION>
+    <DECORATED>??0image_info@png@@QAE@XZ</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\raket\source\repos\Testing01\Testing01\png++\</FILEPATH>
+      <FILENAME>image_info.hpp</FILENAME>
+      <LINE>61</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Der Enumerationstyp "png::compression_type" umfasst keine Bereichseinschränkung. Geben Sie "enum class" Vorrang vor "enum" (Enum.3).</DESCRIPTION>
+    <FUNCTION>png::image_info::{ctor}</FUNCTION>
+    <DECORATED>??0image_info@png@@QAE@XZ</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\raket\source\repos\Testing01\Testing01\png++\</FILEPATH>
+      <FILENAME>image_info.hpp</FILENAME>
+      <LINE>62</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Der Enumerationstyp "png::filter_type" umfasst keine Bereichseinschränkung. Geben Sie "enum class" Vorrang vor "enum" (Enum.3).</DESCRIPTION>
+    <FUNCTION>png::image_info::{ctor}</FUNCTION>
+    <DECORATED>??0image_info@png@@QAE@XZ</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\raket\source\repos\Testing01\Testing01\png++\</FILEPATH>
+      <FILENAME>io_base.hpp</FILENAME>
+      <LINE>192</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Der Enumerationstyp "png::chunk" umfasst keine Bereichseinschränkung. Geben Sie "enum class" Vorrang vor "enum" (Enum.3).</DESCRIPTION>
+    <FUNCTION>png::io_base::has_chunk</FUNCTION>
+    <DECORATED>?has_chunk@io_base@png@@QAE_NW4chunk@2@@Z</DECORATED>
+    <FUNCLINE>192</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\raket\source\repos\Testing01\Testing01\png++\</FILEPATH>
+      <FILENAME>io_base.hpp</FILENAME>
+      <LINE>236</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Der Enumerationstyp "png::rgb_to_gray_error_action" umfasst keine Bereichseinschränkung. Geben Sie "enum class" Vorrang vor "enum" (Enum.3).</DESCRIPTION>
+    <FUNCTION>png::io_base::set_rgb_to_gray</FUNCTION>
+    <DECORATED>?set_rgb_to_gray@io_base@png@@QBEXW4rgb_to_gray_error_action@2@NN@Z</DECORATED>
+    <FUNCLINE>236</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\raket\source\repos\Testing01\Testing01\png++\</FILEPATH>
+      <FILENAME>io_base.hpp</FILENAME>
+      <LINE>292</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Der Enumerationstyp "png::filler_type" umfasst keine Bereichseinschränkung. Geben Sie "enum class" Vorrang vor "enum" (Enum.3).</DESCRIPTION>
+    <FUNCTION>png::io_base::set_filler</FUNCTION>
+    <DECORATED>?set_filler@io_base@png@@QBEXIW4filler_type@2@@Z</DECORATED>
+    <FUNCLINE>292</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\raket\source\repos\Testing01\Testing01\</FILEPATH>
+      <FILENAME>Rtlib.h</FILENAME>
+      <LINE>222</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Die Variable "RTI::factor" ist nicht initialisiert. Eine Membervariable muss immer initialisiert werden (type.6).</DESCRIPTION>
+    <FUNCTION>RTI::{ctor}</FUNCTION>
+    <DECORATED>??0RTI@@QAE@XZ</DECORATED>
+    <FUNCLINE>222</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>RTI::factor</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
